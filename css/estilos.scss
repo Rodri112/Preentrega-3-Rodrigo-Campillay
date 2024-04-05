@@ -1,5 +1,4 @@
-
-.navbar{
+.navbar {
     background: linear-gradient(to bottom, black, transparent);
     position: absolute;
     top: 0;
@@ -9,27 +8,35 @@
     z-index: 2;
 
 }
-.nav-link{
-    color:blue !important;
-    border-color: black !important;
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 15px;
+    margin-right: 5px;
 }
-.nav-item{
+
+.nav-item {
     margin-bottom: 65px;
     position: relative;
 
 
 }
-.navbar-brand{
+
+.navbar-brand {
     margin-left: 10px;
 }
-.collapse{
+
+.collapse {
     display: flex;
     justify-content: end;
 }
-.h2{
+
+.h2 {
     padding: 50px;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     position: relative;
     justify-content: center;
@@ -37,7 +44,8 @@
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
-.contenedor-dos{
+
+.contenedor-dos {
     margin-top: 30px;
     display: flex;
     position: relative;
@@ -57,16 +65,18 @@
     background-color: black;
     border: none;
 }
+
 .texto-encima {
     position: absolute;
     top: 5%;
     left: 10%;
     color: white;
-    font-size:40px ;
+    font-size: 40px;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 10px;
     border-radius: 5px;
 }
+
 .texto-debajo {
     position: absolute;
     bottom: 5%;
@@ -77,6 +87,7 @@
     padding: 5px;
     border-radius: 5px;
 }
+
 footer {
     background: linear-gradient(to top, black, transparent);
     color: rgb(255, 255, 255);
@@ -90,92 +101,141 @@ footer {
 footer p {
     margin-top: 100px;
 }
-body{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6671043417366946) 50%, rgba(0,0,0,1) 100%);
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.6671043417366946) 50%, rgba(0, 0, 0, 1) 100%);
 }
-.presentacion{
+
+.presentacion {
     text-align: center;
 }
-.presentacion-img{
+
+.presentacion-img {
     display: inline-block;
     margin: 0 auto;
     margin-top: 20px;
 }
 
-.texto-presentacion{
+.texto-presentacion {
     background-color: rgba(0, 0, 0, 0.363);
     color: bisque;
     margin-top: 5px;
 }
-.titulo-redes{
+
+.titulo-redes {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.116);
     color: bisque;
 }
-.redes{
+
+.redes {
     text-align: center;
 }
 
-.contenedor-subaru{
+.contenedor-subaru {
     display: flex;
     align-items: center;
 }
+
 .contenedor-subaru img {
-max-width: 50%;
-margin-left: 5px;
-border-radius: 5px;
+    max-width: 50%;
+    margin-left: 5px;
+    border-radius: 5px;
 }
+
 .contenedor-subaru p {
     flex: 1;
 }
-.texto-subaru{
+
+.texto-subaru {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.171);
     border-radius: 5px;
     margin: 10px;
     color: rgb(255, 255, 255);
 }
-.contenedor-mitsubishi{
+
+.contenedor-mitsubishi {
     display: flex;
     align-items: center;
 }
+
 .contenedor-mitsubishi img {
-max-width: 50%;
-margin-left: 5px;
-border-radius: 5px;
-margin-right: 5px;
-margin-top: 10px;
+    max-width: 50%;
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
 }
+
 .contenedor-mitsubishi p {
     flex: 1;
 }
-.texto-mitsubishi{
+
+.texto-mitsubishi {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.171);
     border-radius: 5px;
     margin: 10px;
     color: rgb(255, 255, 255);
 }
-.titulo-wrc{
+
+.titulo-wrc {
     color: white;
     text-align: center;
     font-size: 80px;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.384);
 }
-.texto-wrc{
+
+.texto-wrc {
     background-color: rgba(0, 0, 0, 0.233);
     color: white;
 }
-.texto-historia{
+
+.texto-historia {
     color: white;
     background-color: black;
 }
-.titulo-vehiculo{
-text-shadow: 50px;
-color: black;
-text-align: center;
-background: rgb(252,252,252);
-background: radial-gradient(circle, transparent 60%, black);
+
+.titulo-vehiculo {
+    text-shadow: 50px;
+    color: black;
+    text-align: center;
+    background: rgb(252, 252, 252);
+    background: radial-gradient(circle, transparent 60%, black);
+}
+
+.titulo-lancia {
+    color: rgb(255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 30px;
+}
+
+.texto-lancia {
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+}
+
+.titulo-audi {
+    color: rgb(255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 30px;
+}
+
+.texto-audi {
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+}
+
+.titulo-peugeot {
+    color: rgb(255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 30px;
+}
+
+.texto-peugeot {
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
 }

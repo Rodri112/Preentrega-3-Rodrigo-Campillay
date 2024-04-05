@@ -9,8 +9,10 @@
 }
 
 .nav-link {
-  color: blue !important;
-  border-color: black !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(0, 0, 0, 0.705);
+  border-radius: 15px;
+  margin-right: 5px;
 }
 
 .nav-item {
@@ -198,6 +200,39 @@ body {
   text-align: center;
   background: rgb(252, 252, 252);
   background: radial-gradient(circle, transparent 60%, black);
+}
+
+.titulo-lancia {
+  color: rgb(255, 255, 0);
+  background-color: rgba(0, 0, 0, 0.486);
+  border-radius: 30px;
+}
+
+.texto-lancia {
+  background-color: rgba(0, 0, 0, 0.486);
+  border-radius: 5px;
+}
+
+.titulo-audi {
+  color: rgb(255, 255, 0);
+  background-color: rgba(0, 0, 0, 0.486);
+  border-radius: 30px;
+}
+
+.texto-audi {
+  background-color: rgba(0, 0, 0, 0.486);
+  border-radius: 5px;
+}
+
+.titulo-peugeot {
+  color: rgb(255, 255, 0);
+  background-color: rgba(0, 0, 0, 0.486);
+  border-radius: 30px;
+}
+
+.texto-peugeot {
+  background-color: rgba(0, 0, 0, 0.486);
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
