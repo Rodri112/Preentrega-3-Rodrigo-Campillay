@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&family=Montserrat:ital,wght@1,100&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .navbar {
   background: linear-gradient(to bottom, black, transparent);
   position: absolute;
@@ -9,10 +10,15 @@
 }
 
 .nav-link {
-  color: rgb(255, 255, 255) !important;
-  background-color: rgba(0, 0, 0, 0.705);
+  color: rgb(42, 57, 255) !important;
+  background-color: rgba(0, 0, 0, 0.904);
   border-radius: 15px;
   margin-right: 5px;
+  transition: color 0.5s !important;
+}
+
+.nav-link:hover {
+  color: white !important;
 }
 
 .nav-item {
@@ -86,7 +92,7 @@
 
 footer {
   background: linear-gradient(to top, black, transparent);
-  color: rgb(255, 255, 255);
+  color: white;
   padding: 20px;
   text-align: center;
   height: 30%;
@@ -114,14 +120,15 @@ body {
 
 .texto-presentacion {
   background-color: rgba(0, 0, 0, 0.363);
-  color: bisque;
+  color: #ffe4c4;
   margin-top: 5px;
+  font-family: "Karla", sans-serif;
 }
 
 .titulo-redes {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.116);
-  color: bisque;
+  color: #ffe4c4;
 }
 
 .redes {
@@ -148,7 +155,8 @@ body {
   background-color: rgba(0, 0, 0, 0.171);
   border-radius: 5px;
   margin: 10px;
-  color: rgb(255, 255, 255);
+  color: white;
+  font-family: "montserrat", sans-serif;
 }
 
 .contenedor-mitsubishi {
@@ -173,7 +181,8 @@ body {
   background-color: rgba(0, 0, 0, 0.171);
   border-radius: 5px;
   margin: 10px;
-  color: rgb(255, 255, 255);
+  color: white;
+  font-family: "montserrat", sans-serif;
 }
 
 .titulo-wrc {
@@ -182,21 +191,23 @@ body {
   font-size: 80px;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.384);
+  font-family: "Prompt", sans-serif;
 }
 
 .texto-wrc {
   background-color: rgba(0, 0, 0, 0.233);
   color: white;
+  font-family: "montserrat", sans-serif;
 }
 
 .texto-historia {
   color: white;
   background-color: black;
+  font-family: "montserrat", sans-serif;
 }
 
 .titulo-vehiculo {
-  text-shadow: 50px;
-  color: black;
+  color: white;
   text-align: center;
   background: rgb(252, 252, 252);
   background: radial-gradient(circle, transparent 60%, black);
